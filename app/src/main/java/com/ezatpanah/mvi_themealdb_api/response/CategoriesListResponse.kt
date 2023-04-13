@@ -1,4 +1,4 @@
-package com.ezatpanah.mvvm_themealdb_api.response
+package com.ezatpanah.mvi_themealdb_api.response
 
 import com.google.gson.annotations.SerializedName
 

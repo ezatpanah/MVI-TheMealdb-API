@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.ezatpanah.mvi_themealdb_api.R
 import com.ezatpanah.mvi_themealdb_api.databinding.FragmentFavoritesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class FavoritesFragment : Fragment() {
 
     private var _binding: FragmentFavoritesBinding? = null

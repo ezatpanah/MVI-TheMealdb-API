@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.ezatpanah.mvi_themealdb_api.R
 import com.ezatpanah.mvi_themealdb_api.databinding.FragmentDetailsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetailsFragment : Fragment() {
 
     private var _binding: FragmentDetailsBinding? = null
